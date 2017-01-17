@@ -1,0 +1,359 @@
+#bg-banner {
+	width: 468px;
+	height: 60px;
+	margin: 40px auto 0;
+	background-image: url(../img/bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: relative;
+}
+
+#destello {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	left: 30px;
+	background-image: url(../img/destello.png);
+	background-position: 0 -70px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: absolute;
+	z-index:4;
+	-webkit-animation: destello-animation 15s 1 linear;
+	-moz-animation: destello-animation 15s 1 linear;
+	-o-animation: destello-animation 15s 1 linear;
+	-ms-animation: destello-animation 15s 1 linear;
+	animation: destello-animation 15s 1 linear;
+}
+
+@keyframes destello-animation{
+	0%   {opacity: 0; left: 300px;}
+	5% {opacity: 1; left: 280px;}
+	100% {opacity: 1; left: 30px;}
+}
+@-webkit-keyframes destello-animation{
+	0%   {opacity: 0; left: 300px;}
+	5% {opacity: 1; left: 280px;}
+	100% {opacity: 1; left: 30px;}
+}
+@-moz-keyframes destello-animation{
+	0%   {opacity: 0; left: 300px;}
+	5% {opacity: 1; left: 280px;}
+	100% {opacity: 1; left: 30px;}
+}
+@-o-keyframes destello-animation{
+	0%   {opacity: 0; left: 300px;}
+	5% {opacity: 1; left: 280px;}
+	100% {opacity: 1; left: 30px;}
+}
+@-ms-keyframes destello-animation{
+	0%   {opacity: 0; left: 300px;}
+	5% {opacity: 1; left: 280px;}
+	100% {opacity: 1; left: 30px;}
+}
+
+#logo {
+	width: 120px;
+    height: 50px;
+    margin: 13px 0;
+	right:40%;
+    background-image: url(../img/urbanpoi-logo.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+    z-index: 5;
+	-webkit-animation: logo-animation 15s 1 ease-in-out;
+	-moz-animation: logo-animation 15s 1 ease-in-out;
+	-o-animation: destello-animation 15s 1 linear;
+	-ms-animation: logo-animation 15s 1 ease-in-out;
+	animation: logo-animation 15s 1 ease-in-out;
+}
+
+@keyframes logo-animation {
+	0%	 { right: -180px}
+	1% { right: 10px;}
+	32% {right: 10px}
+	35% { right: 40%;}
+	100% { right: 40%;}
+}
+@-webkit-keyframes logo-animation {
+	0%	 { right: -180px}
+	1% { right: 10px;}
+	32% {right: 10px}
+	35% { right: 40%;}
+	100% { right: 40%;}
+}
+@-moz-keyframes logo-animation {
+	0%	 { right: -180px}
+	1% { right: 10px;}
+	32% {right: 10px}
+	35% { right: 40%;}
+	100% { right: 40%;}
+}
+@-o-keyframes logo-animation {
+	0%	 { right: -180px}
+	1% { right: 10px;}
+	32% {right: 10px}
+	35% { right: 40%;}
+	100% { right: 40%;}
+}
+@-ms-keyframes logo-animation {
+	0%	 { right: -180px}
+	1% { right: 10px;}
+	32% {right: 10px}
+	35% { right: 40%;}
+	100% { right: 40%;}
+}
+
+#institucio{
+	width: 120px;
+    height: 50px;
+    margin: 13px -50px;
+    right: 50%;
+    background-image: url(../img/institucio.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+	transform: scale(0,0);
+	opacity:0;
+    z-index: 6;
+	-webkit-animation: institucio-animation 4.75s 0.25s 1 ease-in-out;
+	-moz-animation: institucio-animation 4.75s 0.25s 1 ease-in-out;
+	-o-animation: institucio-animation 4.75s 0.25s 1 ease-in-out;
+	-ms-animation: institucio-animation 4.75s 0.25s 1 ease-in-out;
+	animation: institucio-animation 4.75s 0.25s 1 ease-in-out;
+
+}
+@keyframes institucio-animation {
+	0%	 { transform: scale(0,0); opacity:0;}
+	8%	 { transform: scale(1,1); opacity:1;}
+	92%	 { transform: scale(1,1); opacity:1;}
+	100% { transform: scale(0,0); opacity:0;}
+}
+@-webkit-keyframes institucio-animation {
+	0%	 { opacity:0;}
+	8%	 { opacity:1;}
+	92%	 { opacity:1;}
+	100% { opacity:0;}
+}
+@-moz-keyframes institucio-animation {
+	0%	 { transform: scale(0,0); opacity:0;}
+	8%	 { transform: scale(1,1); opacity:1;}
+	92%	 { transform: scale(1,1); opacity:1;}
+	100% { transform: scale(0,0); opacity:0;}
+}
+@-o-keyframes institucio-animation {
+	0%	 { transform: scale(0,0); opacity:0;}
+	8%	 { transform: scale(1,1); opacity:1;}
+	92%	 { transform: scale(1,1); opacity:1;}
+	100% { transform: scale(0,0); opacity:0;}
+}
+@-ms-keyframes institucio-animation {
+	0%	 { transform: scale(0,0); opacity:0;}
+	8%	 { transform: scale(1,1); opacity:1;}
+	92%	 { transform: scale(1,1); opacity:1;}
+	100% { transform: scale(0,0); opacity:0;}
+}
+
+#shadow-phone{
+	width: 132px;
+    height: 89px;
+    margin: 0;
+    background-image: url(../img/shadow-phone.png);
+    background-position: 0 50px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+    z-index: 7;
+	-webkit-animation: shadow-animation 4.5s 0.5s 1 ease-in-out;
+	-moz-animation: shadow-animation 4.5s 0.5s 1 ease-in-out;
+	-o-animation: shadow-animation 4.5s 0.5s 1 ease-in-out;
+	-ms-animation: shadow-animation 4.5s 0.5s 1 ease-in-out;
+	animation: shadow-animation 4.5s 0.5s 1 ease-in-out;
+	}	
+@keyframes shadow-animation {
+	0%	{ background-position: 0 50px; opacity:0}
+	8% { background-position: 0 -10px; opacity:1}
+	92% { background-position: 0 -10px; opacity:1}	
+	100% { background-position: 0 50px; opacity:1}
+}
+@-webkit-keyframes shadow-animation {
+	0%	{ background-position: 0 50px; opacity:0}
+	8% { background-position: 0 -10px; opacity:1}
+	92% { background-position: 0 -10px; opacity:1}	
+	100% { background-position: 0 50px; opacity:1}
+}
+@-moz-keyframes shadow-animation {
+	0%	{ background-position: 0 50px; opacity:0}
+	8% { background-position: 0 -10px; opacity:1}
+	92% { background-position: 0 -10px; opacity:1}	
+	100% { background-position: 0 50px; opacity:1}
+}
+@-o-keyframes shadow-animation {
+	0%	{ background-position: 0 50px; opacity:0}
+	8% { background-position: 0 -10px; opacity:1}
+	92% { background-position: 0 -10px; opacity:1}	
+	100% { background-position: 0 50px; opacity:1}
+}
+@-ms-keyframes shadow-animation {
+	0%	{ background-position: 0 50px; opacity:0}
+	8% { background-position: 0 -10px; opacity:1}
+	92% { background-position: 0 -10px; opacity:1}	
+	100% { background-position: 0 50px; opacity:1}
+}
+
+#phone{
+	width: 132px;
+    height: 89px;
+    margin: 0;
+    background-image: url(../img/phone.png);
+    background-position: 0 -75px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+    z-index: 8;
+	-webkit-animation: phone-animation 4.5s 0.5s 1 ease-in-out;
+	-moz-animation: phone-animation 4.5s 0.5s 1 ease-in-out;
+	-o-animation: phone-animation 4.5s 0.5s 1 ease-in-out;
+	-ms-animation: phone-animation 4.5s 0.5s 1 ease-in-out;
+	animation: phone-animation 4.5s 0.5s 1 ease-in-out;
+	}	
+@keyframes phone-animation{
+	0%	{ background-position: 0 -75px; opacity:0}
+	8% { background-position: 0 -10px; opacity:1}
+	92% { background-position: 0 -10px; opacity:1}	
+	100% { background-position: 0 -75px; opacity:1}
+}
+@-webkit-keyframes phone-animation{
+	0%	{ background-position: 0 -75px; opacity:0}
+	8% { background-position: 0 -10px; opacity:1}
+	92% { background-position: 0 -10px; opacity:1}	
+	100% { background-position: 0 -75px; opacity:1}
+}
+@-moz-keyframes phone-animation{
+	0%	{ background-position: 0 -75px; opacity:0}
+	8% { background-position: 0 -10px; opacity:1}
+	92% { background-position: 0 -10px; opacity:1}	
+	100% { background-position: 0 -75px; opacity:1}
+}
+@-o-keyframes phone-animation{
+	0%	{ background-position: 0 -75px; opacity:0}
+	8% { background-position: 0 -10px; opacity:1}
+	92% { background-position: 0 -10px; opacity:1}	
+	100% { background-position: 0 -75px; opacity:1}
+}
+@-ms-keyframes phone-animation{
+	0%	{ background-position: 0 -75px; opacity:0}
+	8% { background-position: 0 -10px; opacity:1}
+	92% { background-position: 0 -10px; opacity:1}	
+	100% { background-position: 0 -75px; opacity:1}
+}
+
+#text{
+	font:10px/12pt 'Open Sans', sans-serif;
+	color:#FFF;
+	text-transform:uppercase;
+	right:-140px;
+	width: 132px;
+	top:-10px;
+	white-space:pre;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 8;
+	-webkit-animation: text-animation 0.5s 5s 1 ease-in-out forwards;
+	-moz-animation: download-animation 0.5s 5s 1 ease-in-out forwards;
+	-o-animation: download-animation 0.5s 5s 1 ease-in-out forwards;
+	-ms-animation: download-animation 0.5s 5s 1 ease-in-out forwards;
+	animation: text-animation 0.5s 5s 1 ease-in-out forwards;
+}
+@keyframes text-animation{
+	0%	{ right:-140px}
+	100% { right:0}
+}
+@-webkit-keyframes text-animation{
+	0%	{ right:-140px}
+	100% { right:0}
+}
+@-moz-keyframes text-animation{
+	0%	{ right:-140px}
+	100% { right:0}
+}
+@-o-keyframes text-animation{
+	0%	{ right:-140px}
+	100% { right:0}
+}
+@-ms-keyframes text-animation{
+	0%	{ right:-140px}
+	100% { right:0}
+}
+
+#download{
+	left:-120px;
+	width:100px;
+	height:100px;
+    margin: 4px;
+	padding:10px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 8;
+	-webkit-animation: download-animation 0.5s 5s 1 ease-in-out forwards;
+	-moz-animation: download-animation 0.5s 5s 1 ease-in-out forwards;
+	-o-animation: download-animation 0.5s 5s 1 ease-in-out forwards;
+	-ms-animation: download-animation 0.5s 5s 1 ease-in-out forwards;
+	animation: download-animation 0.5s 5s 1 ease-in-out forwards;
+}
+@keyframes download-animation{
+	0% {left:-120px;}
+	100% {left:0px; }
+}
+@-webkit-keyframes download-animation{
+	0% {left:-120px;}
+	100% {left:0px; }
+}
+@-moz-keyframes download-animation{
+	0% {left:-120px;}
+	100% {left:0px; }
+}
+@-o-keyframes download-animation{
+	0% {left:-120px;}
+	100% {left:0px; }
+}
+@-ms-keyframes download-animation{
+	0% {left:-120px;}
+	100% {left:0px; }
+}
+
+.click {
+	font:12px/22pt 'Open Sans', sans-serif;
+	text-decoration:none;
+	color:#fff;
+	position:relative;
+	padding: 10px 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 1px 0px #0FC, 0px 5px 0px 0px #090, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #0FC, 0px 5px 0px 0px #090, 0px 10px 5px #999;
+	-o-box-shadow: inset 0px 1px 0px #0FC, 0px 5px 0px 0px #090, 0px 10px 5px #999;
+	box-shadow: inset 0px 1px 0px #0FC, 0px 5px 0px 0px #090, 0px 10px 5px #999;
+	
+   border-top: 1px solid #ffffff;
+   background: #00631f;
+   background: -webkit-gradient(linear, left top, left bottom, from(#00fc26), to(#00631f));
+   background: -webkit-linear-gradient(top, #00fc26, #00631f);
+   background: -moz-linear-gradient(top, #00fc26, #00631f);
+   background: -ms-linear-gradient(top, #00fc26, #00631f);
+   background: -o-linear-gradient(top, #00fc26, #00631f);
+
+}
+
+.click:hover {
+	top:3px;
+	-webkit-box-shadow: inset 0px 1px 0px #0FC, 0px 2px 0px 0px #090, 0px 5px 3px #999;
+	-moz-box-shadow: inset 0px 1px 0px #0FC, 0px 2px 0px 0px #090, 0px 5px 3px #999;
+	-o-box-shadow: inset 0px 1px 0px #0FC, 0px 2px 0px 0px #090, 0px 5px 3px #999;
+	box-shadow: inset 0px 1px 0px #0FC, 0px 2px 0px 0px #090, 0px 5px 3px #999;
+}
